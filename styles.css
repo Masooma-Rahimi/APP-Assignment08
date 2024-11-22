@@ -1,0 +1,212 @@
+header {
+    text-align: center;
+    background-color: blue;
+    font-size: 30px;
+    text-transform: capitalize;
+    border-top: 5px;
+    border-bottom: 5px;
+    border-style: double;
+    border-color: aqua;
+}
+html body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: borderbox;
+
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    text-align: right;
+    background-color: blueviolet;
+    padding: 20px;
+    font-size: large;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    flex-direction: row;
+    color: blue;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    z-index: 1;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: whitesmoke;
+}
+h1 {
+    text-align: center;
+    padding: 0px;
+}
+body {
+    background-color:rgb(163, 220, 228);
+}
+.product-container {
+    width: 800px;
+    text-align: left;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+   
+    justify-content: center;
+    padding: 10px;
+} 
+
+
+.row {
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+    flex-direction: row;
+
+} 
+.picture {
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+    flex-direction: column;
+
+} 
+
+.product-image {
+    background-color: aliceblue;
+    opacity: 1;
+    
+}
+.product-image img {
+    width: 400px;
+   
+}
+
+.promo-code {
+    background-color: aqua;
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    border-color: black;
+    border-style: double;
+    
+}
+.related-product {
+    padding: 10px;
+    margin: 10px;
+    border: 5px;
+    border-color: rgb(53, 14, 224);
+    border-style: double;
+    background-color: lightblue;
+    width: 200px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    position: relative;
+
+
+} 
+.related-product:hover {
+    background-color: black;
+}
+.related-product:hover .related-product-name {
+    visibility: visible;
+}
+.related-product img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    opacity: 1;
+}
+.related-product img:hover {
+    opacity: 0.8;
+}
+.related-product-name {
+    background-color: rgb(118, 165, 187);
+    padding: 10px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    visibility: hidden;
+
+}
+.chracter {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+    align-items: center;
+}
+.chracter-name{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.chracter-image {
+   width: 250px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.chracter-image img {
+    align-items: center;
+    border-radius: 50%;
+    width:50%;
+    padding: auto;
+}
+footer {
+    text-align: center;
+    background-color: blue;
+    color: black;
+    text-transform: uppercase;
+    font-size: large; 
+}
+
+.image{
+    position: relative;
+    opacity: 1;
+    
+}
+.image img{
+    width: 700px;
+    height: 700px;
+    align-items: center;
+}
+.image:hover .caption{
+    visibility: visible;
+}
+.caption{
+    background-color: black;
+    padding: 20px;
+    top: 0;
+    right:0;
+    position: absolute;
+    opacity: 0.4;
+    color: white;
+    visibility:hidden;
+}
+.image:hover img {
+    opacity: 0.7;
+}
+
+
+.members{
+    display: flex;
+    gap: 10px;
+   width: 800px;
+   padding:10px;
+}
+
+
+
+
+
+
